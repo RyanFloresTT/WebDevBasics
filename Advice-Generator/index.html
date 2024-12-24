@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- CSS -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Advice Generator App</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body onload="setAdviceOnLoad();">
+    <main>
+      <div class="card-container">
+        <div class="card">
+          <h4 class="advice-header">
+            Advice # <span id="advice-header">1</span>
+          </h4>
+
+          <h1 class="advice-text" id="advice-text">"Advice Text"</h1>
+          <img
+            src="./images/pattern-divider-desktop.svg"
+            alt="desktop-divider-pattern"
+            class="svg-pattern"
+          />
+          <div class="button-container">
+            <div class="dice-button" id="btn">
+              <img
+                class="dice-icon"
+                src="./images/icon-dice.svg"
+                alt="dice-icon"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="https://github.com/RyanFloresTT">Ryan Flores</a>.
+      </div>
+    </footer>
+    <script src="./advice.js"></script>
+  </body>
+</html>
