@@ -1,0 +1,135 @@
+body {
+    background-color: hsl(185, 75%, 39%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Kumbh Sans";
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 18px;
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+h2 {
+    font-weight: 700;
+    color: hsl(229, 23%, 23%);
+}
+
+p {
+    font-weight: 400;
+    color: hsl(0, 0%, 59%);
+}
+
+.card {
+    border-radius: 15px;
+    background-color: white;
+    width: 350px;
+    height: 380px;
+    overflow: hidden;
+    box-shadow: 0 0 20px #0000005d;
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    margin-top: -190px;
+    margin-right: -175px;
+}
+
+/* Background */
+
+.bgImgs {
+    z-index: -1;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.bg-top {
+    position: relative;
+    bottom: 500px;
+}
+
+.bg-bot {
+    position: relative;
+    top: 500px;
+}
+
+/* Card Images */
+
+
+
+.pfp {
+    border-radius: 50%; 
+    border: white solid;
+    border-width: 5px;
+    position: fixed;
+    top: 50%;
+    right: 50%;
+    margin-top: -106px;
+    margin-right: -53px;
+}
+
+/* Info */
+
+.age{
+    font-size: 18px;
+    margin: 7px;
+}
+
+.i {
+    display: block;
+}
+
+.category{
+    letter-spacing: 1px;
+}
+
+.info {
+    height: 150px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    margin: auto;
+}
+
+.location {
+    position: relative;
+    bottom: 75px;
+    left: 115px;
+    font-size: 15px;
+}
+
+.personal-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 75px;
+}
+
+.stat {
+    display: inline-block;
+    text-align: center;
+    margin: 25px;
+}
+
+.stats-container {
+    border-top: 1px solid hsla(0, 0%, 78%, 0.664);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Footer */
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
